@@ -2,183 +2,75 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>اطلاعات فردی | رامتین نهالگر</title>
-
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800&display=swap');
-
-    * { box-sizing: border-box; }
-
-    body {
-      margin: 0;
-      font-family: 'Vazirmatn', Tahoma, sans-serif;
-      color: #f0edf5;
-      background: #111115;
-      line-height: 2;
-    }
-
-    header {
-      padding: 18px 5%;
-      border-bottom: 1px solid #39313f;
-      background: #17171d;
-    }
-
-    .brand {
-      color: #b394f9;
-      font-weight: 800;
-      letter-spacing: 2px;
-    }
-
-    main {
-      width: min(800px, 90%);
-      margin: 55px auto;
-    }
-
-    .eyebrow {
-      color: #b394f9;
-      font-size: 12px;
-      letter-spacing: 2px;
-    }
-
-    h1 { font-size: clamp(30px, 6vw, 45px); }
-
-    .subtitle { color: #aaa5b5; }
-
-    .panel {
-      margin-top: 24px;
-      padding: 25px;
-      border: 1px solid #39313f;
-      border-radius: 16px;
-      background: linear-gradient(145deg, #222128, #17171c);
-      box-shadow: 0 15px 40px #0003;
-    }
-
-    h2 {
-      margin-top: 0;
-      font-size: 19px;
-      color: #c3a9ff;
-    }
-
-    .details {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 12px;
-    }
-
-    .item {
-      padding: 13px;
-      border: 1px solid #39313f;
-      border-radius: 10px;
-      background: #ffffff05;
-      overflow-wrap: anywhere;
-    }
-
-    .item small {
-      display: block;
-      color: #aaa5b5;
-    }
-
-    .item strong { font-weight: 500; }
-
-    p, li { color: #c0bbc8; }
-
-    a.button {
-      display: inline-block;
-      margin-top: 15px;
-      padding: 10px 20px;
-      border-radius: 8px;
-      background: #b394f9;
-      color: #17121f;
-      text-decoration: none;
-      font-weight: 700;
-    }
-
-    footer {
-      margin-top: 60px;
-      padding: 22px;
-      text-align: center;
-      border-top: 1px solid #39313f;
-      color: #8f8998;
-      font-size: 12px;
-    }
-
-    @media (max-width: 520px) {
-      .details { grid-template-columns: 1fr; }
-      .panel { padding: 18px; }
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#111115">
+<title>اطلاعات فردی | رامتین نهالگر</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800&display=swap');
+*{box-sizing:border-box}
+body{margin:0;background:#111115;color:#f1eff6;font-family:Vazirmatn,Tahoma,sans-serif;line-height:1.9}
+a{text-decoration:none;color:inherit}
+header{padding:18px 5%;background:#19191f;border-bottom:1px solid #39313f}
+.brand{font-weight:800;letter-spacing:2px;color:#b394f9}
+main{width:min(820px,90%);margin:45px auto}
+.eyebrow{font-size:12px;letter-spacing:2px;color:#b394f9}
+h1{font-size:clamp(30px,6vw,46px);margin:10px 0}
+.subtitle{color:#aaa5b5}
+.panel{padding:24px;margin:20px 0;background:linear-gradient(145deg,#24232b,#19191f);border:1px solid #39313f;border-radius:14px}
+h2{font-size:19px;color:#c3a9ff;margin-top:0}
+.details{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.item{padding:13px;border:1px solid #39313f;border-radius:9px;overflow-wrap:anywhere}
+.item small{display:block;color:#aaa5b5}
+p,li{color:#c0bbc8}
+.button{display:inline-block;margin-top:15px;padding:10px 20px;border-radius:8px;background:#b394f9;color:#17121f;font-weight:700}
+footer{text-align:center;border-top:1px solid #39313f;padding:22px;color:#96909f;font-size:12px}
+@media(max-width:520px){.details{grid-template-columns:1fr}.panel{padding:18px}}
+</style>
 </head>
-
 <body>
-  <header>
-    <div class="brand">R ✦ RAMTIN</div>
-  </header>
+<header><div class="brand">R ✦ RAMTIN</div></header>
 
-  <main>
-    <div class="eyebrow">PERSONAL PROFILE / 01</div>
-    <h1>اطلاعات فردی</h1>
-    <p class="subtitle">رامتین نهالگر | هنرجوی معماری داخلی</p>
+<main>
+<div class="eyebrow">PERSONAL PROFILE / 01</div>
+<h1>اطلاعات فردی</h1>
+<p class="subtitle">رامتین نهالگر | هنرجوی معماری داخلی</p>
 
-    <section class="panel">
-      <h2>مشخصات فردی</h2>
-      <div class="details">
-        <div class="item">
-          <small>نام و نام خانوادگی</small>
-          <strong>رامتین نهالگر</strong>
-        </div>
-        <div class="item">
-          <small>سن</small>
-          <strong>۱۷ سال</strong>
-        </div>
-        <div class="item">
-          <small>رشته تحصیلی</small>
-          <strong>معماری داخلی</strong>
-        </div>
-        <div class="item">
-          <small>وضعیت</small>
-          <strong>هنرجو و متقاضی کارآموزی</strong>
-        </div>
-        <div class="item">
-          <small>شهر</small>
-          <strong>تهران</strong>
-        </div>
-      </div>
-    </section>
+<section class="panel">
+<h2>مشخصات فردی</h2>
+<div class="details">
+<div class="item"><small>نام و نام خانوادگی</small><strong>رامتین نهالگر</strong></div>
+<div class="item"><small>سن</small><strong>۱۷ سال</strong></div>
+<div class="item"><small>رشته تحصیلی</small><strong>معماری داخلی</strong></div>
+<div class="item"><small>وضعیت</small><strong>هنرجو و متقاضی کارآموزی</strong></div>
+<div class="item"><small>شهر</small><strong>تهران</strong></div>
+</div>
+</section>
 
-    <section class="panel">
-      <h2>درباره من</h2>
-      <p>
-        به طراحی فضاهای داخلی، نقشه‌کشی معماری و مدل‌سازی
-        سه‌بعدی علاقه‌مندم. هدفم یادگیری بیشتر، کسب تجربه
-        عملی و پیشرفت در محیط حرفه‌ای معماری است.
-      </p>
-    </section>
+<section class="panel">
+<h2>درباره من</h2>
+<p>به طراحی فضاهای داخلی، نقشه‌کشی معماری و مدل‌سازی سه‌بعدی علاقه‌مندم. هدفم یادگیری بیشتر، کسب تجربه عملی و پیشرفت در محیط حرفه‌ای معماری است.</p>
+</section>
 
-    <section class="panel">
-      <h2>مهارت‌ها</h2>
-      <ul>
-        <li>نقشه‌کشی و نقشه‌خوانی معماری</li>
-        <li>طراحی داخلی مسکونی و تجاری</li>
-        <li>آشنایی با اصول معماری داخلی</li>
-        <li>علاقه به مدل‌سازی سه‌بعدی</li>
-        <li>خلاقیت، نظم و مسئولیت‌پذیری</li>
-      </ul>
-    </section>
+<section class="panel">
+<h2>مهارت‌ها</h2>
+<ul>
+<li>نقشه‌کشی و نقشه‌خوانی معماری</li>
+<li>طراحی داخلی مسکونی و تجاری</li>
+<li>آشنایی با اصول معماری داخلی</li>
+<li>علاقه به مدل‌سازی سه‌بعدی</li>
+<li>خلاقیت، نظم و مسئولیت‌پذیری</li>
+</ul>
+</section>
 
-    <section class="panel">
-      <h2>هدف شغلی</h2>
-      <p>
-        به دنبال فرصت کارآموزی در دفتر معماری داخلی هستم
-        تا با روند طراحی و اجرای پروژه‌ها آشنا شوم و
-        مهارت‌های خود را توسعه دهم.
-      </p>
-    </section>
+<section class="panel">
+<h2>هدف شغلی</h2>
+<p>به دنبال فرصت کارآموزی در دفتر معماری داخلی هستم تا با روند طراحی و اجرای پروژه‌ها آشنا شوم و مهارت‌های خود را توسعه دهم.</p>
+</section>
 
-    <a class="button" href="index.html">بازگشت به صفحه اصلی ←</a>
-  </main>
+<a class="button" href="https://kbehzad835-bit.github.io/Ramtin/">← بازگشت به صفحه اصلی</a>
+</main>
 
-  <footer>رامتین نهالگر · معماری داخلی</footer>
+<footer>رامتین نهالگر · معماری داخلی</footer>
 </body>
 </html>
